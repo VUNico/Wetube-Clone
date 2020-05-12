@@ -6,6 +6,7 @@ header.header
     .header__column
         form(action=routes.search, method="GET")
             input(type="text", name="term", placeholder="Search by a term...")    
+            input(type="submit", value="search")
     .header__column
         ul
             li
