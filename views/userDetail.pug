@@ -1,4 +1,11 @@
 extends layout/main.pug
+include mixins/videoBlock.pug
 
 block content
-    p User Detail
+    .profile
+        h1 Profile
+        span Name : #{user.name}
+        span Email : #{user.email}
+        a(href=routes.editProfile(user.id)) Edit Profile
+    .user-myVideos.video-container
+        +videoBlock(video)

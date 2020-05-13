@@ -9,17 +9,17 @@ html
 - [x] join
 - [x] login
 - [ ] video detail
-- [ ] video upload
+- [x] video upload
 - [ ] edit video
 - [ ] user profile
-- [ ] edit profile
-- [ ] change password
+- [x] edit profile
+- [x] change password
 
 js
 
 - [ ] home
 - [ ] search results
-- [ ] join
+- [x] join
 - [ ] login
 - [ ] video detail
 - [ ] video upload

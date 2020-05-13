@@ -1,6 +1,7 @@
 extends layout/main.pug
-include mixins/videoBlock
+include mixins/videoBlock.pug
 
 block content
-    each video in videos
-       +videoBlock(video)
+    .video-container
+        each video in videos
+            +videoBlock(video)

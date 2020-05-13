@@ -1,6 +1,9 @@
 extends layout/main.pug
+include mixins/videoBlock.pug
 
 block content
     .search__header
         span Results for: #{searchingBy}
-    p Search
+    .video-container
+        each video in videos
+            +videoBlock(video)

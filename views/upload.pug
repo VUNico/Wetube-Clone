@@ -1,4 +1,10 @@
 extends layout/main.pug
 
 block content
-    p Upload
+    .form-container
+        form(action="", method="POST")
+            label Upload Your Video
+            input(type="file", name="file", required=true)
+            input(type="text", name="title", placeholder="Title", required=true)
+            input(type="text", name="description", placeholder="Description", required=true)
+            input(type="submit", value="Upload")

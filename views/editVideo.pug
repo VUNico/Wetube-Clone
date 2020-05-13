@@ -1,4 +1,10 @@
 extends layout/main.pug
 
 block content
-    p Edit Video
+    .form-container
+        form(action=routes.VideoDetail, method="POST")
+            input(type="file", name="file", required=true)
+            input(type="text", name="title", placeholder="Title", required=true)
+            input(type="text", name="description", placeholder="Describe your video", required=true)
+            input(type="submit", value="Update Video")
+    a.form-container__link(href=routes.videos+routes.delete) Delete Video
