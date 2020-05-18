@@ -1,5 +1,4 @@
 import routes from "../routes";
-import { videos } from "../db";
 
 export const getJoin = (req, res) => res.render("join", { title: "Join" });
 export const postJoin = (req, res) => {

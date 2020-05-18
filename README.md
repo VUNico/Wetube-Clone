@@ -8,22 +8,23 @@ html
 - [x] search results
 - [x] join
 - [x] login
-- [ ] video detail
+- [x] video detail
 - [x] video upload
-- [ ] edit video
-- [ ] user profile
+- [x] edit video
+- [x] user profile
 - [x] edit profile
 - [x] change password
+- [x] delete
 
 js
 
-- [ ] home
-- [ ] search results
+- [x] home
+- [x] search results
 - [x] join
-- [ ] login
+- [x] login
 - [ ] video detail
-- [ ] video upload
+- [x] video upload
 - [ ] edit video
-- [ ] user profile
-- [ ] edit profile
-- [ ] change password
+- [x] user profile
+- [x] edit profile
+- [x] change password
